@@ -32,6 +32,11 @@ namespace COMP123_S2017_Lesson10A
             Console.WriteLine(superVillain.ToString());
             Console.WriteLine("Malice: " + superVillain.Malice);
 
+            if(superHero is SuperHero)
+            {
+                Console.WriteLine("Super Dude is definitely a SuperHero");
+            }
+
         }
     }
 }
